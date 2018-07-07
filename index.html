@@ -109,5 +109,17 @@
         h = $(window).height() - $('#buttonRow').height()-10;
         $(".list-container").css('max-height', h +'px');
     </script>
-  </body>
+    <script>
+    window.addEventListener('load', function() {
+     if ('serviceWorker' in navigator) {
+     navigator.serviceWorker.register("/serviceWorker.js")
+     .then(function(registration) {
+     console.log("serviceWorker registed.");
+     }).catch(function(error) {
+     console.warn("serviceWorker error.", error);
+     });
+     }
+    });
+    </script>
+    </body>
 </html>
