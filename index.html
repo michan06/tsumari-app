@@ -110,7 +110,7 @@
                 area = sourceButton.attr('data-id')
                 boolArea[area] = !boolArea[area];
             }
-            alert(sourceButton.prop('id') + ":" + boolNew);
+            // alert(sourceButton.prop('id') + ":" + boolNew);
             $('.list-group-item').each(function(i,item){
                 let itemArea = $(item).attr('aria-controls').substr(0,1);
                 // if($(item).attr('aria-controls').startsWith(area)){
