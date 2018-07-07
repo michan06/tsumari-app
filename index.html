@@ -104,53 +104,33 @@
 
         let buttonHandler = function(evt){
             var sourceButton = $(evt.target)
-            alert(JSON.stringify(sourceButton));
             if(sourceButton.prop('id') == 'button2018'){
                 boolNew = !boolNew;
-                $('.list-group-item').each(function(i,item){
-                    if($(item).attr('data-year') == "2018"){
-                        // $(item).removeClass('invisible')
-                        $(item).css('display','block');
-                        // $(item).removeClass('invisible')
-                        // $(item).addClass('visible')
-                    }else{
-                        if(boolNew){
-                            // $(item).addClass('invisible')
-                            $(item).css('display','none');
-                        }else{
-                            // $(item).removeClass('invisible')
-                            $(item).css('display','block');
-
-                        }
-
-                    }
-                })
             }else{
-                // if(sourceButton.prop('id') == 'button2018'){
                 area = sourceButton.attr('data-id')
                 boolArea[area] = !boolArea[area];
-                $('.list-group-item').each(function(i,item){
-                    let itemArea = $(item).attr('aria-controls').substr(0,1);
-                    // if($(item).attr('aria-controls').startsWith(area)){
-                    if(boolArea[itemArea]){
-                        // $(item).removeClass('invisible')
-                        $(item).css('display','block');
-                        // $(item).removeClass('invisible')
-                        // $(item).addClass('visible')
-                    }else{
-                        if(boolArea[area]){
-                            // $(item).addClass('invisible')
-                            $(item).css('display','none');
+            }
+            alert(sourceButton.prop('id') + ":" + boolNew);
+            $('.list-group-item').each(function(i,item){
+                let itemArea = $(item).attr('aria-controls').substr(0,1);
+                // if($(item).attr('aria-controls').startsWith(area)){
+                if(boolArea[itemArea]){
+                    if(boolNew){
+                        if($(item).attr('data-year') == "2018"){
+                            $(item).show();
                         }else{
-                            // $(item).removeClass('invisible')
-                            $(item).css('display','block');
+                            $(item).hide();
 
                         }
-
+                    }else{
+                        $(item).show();
                     }
-                })
+                }else{
+                    $(item).hide();
 
-            }
+                }
+            })
+
         }
 
         $("#button2018").on("click", buttonHandler);
