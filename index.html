@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="manifest" href="/manifest.json">
     <!-- Bootstrap CSS -->
     <!--link rel="stylesheet" href="bootstrap/bootstrap.min.css"-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -58,14 +58,15 @@
             work.new = work.specs['制作年']=="2018"?'<span class="badge badge-primary">New</span>':"";
             work.year = work.specs['制作年'];
             work.mapcode = work.specs['マップコード']?(work.specs['マップコード'].replace(/\B(?=(\d{3})+(?!\d))/g, '-')):"";
-            // work.latlng = work.gmaps?(work.gmaps.latlng[1]+"/"+work.gmaps.latlng[2]):"";
+            work.latlng = work.gmaps?(work.gmaps.latlng):"";
+            work.gmapurl = work.gmaps?work.gmaps.href:"";
             $('.list-group').append(
 `<a class="list-group-item list-group-item-action" id="list-${work.no}-list" data-toggle="list" href="#list-${work.no}" role="tab" aria-controls="${work.no}" data-year="${work.year}">${work.no} 「${work.title}」${work.year}${work.new}</a>`)
             $('.tab-content').append(
 `<div class="tab-pane fade show" id="list-${work.no}" role="tabpanel" aria-labelledby="list-${work.no}-list">
     <div class="card">
         <h5 class="card-title">${work.no} 「${work.title}」</h5>
-        <h6 class="card-subtitle mb-2 text-muted">${work.artist} ${work.specs['制作年']} mapcode:${work.mapcode}</h6>
+        <h6 class="card-subtitle mb-2 text-muted">${work.artist} ${work.specs['制作年']}</h6>
         <h6 class="card-subtitle mb-2">mapcode:${work.mapcode}</h6>
         <a href="${work.url}">
         <img class="card-img-top" src="${work.image_url}" alt="Card image cap">
@@ -73,7 +74,7 @@
         <div class="card-body">
             <p class="card-text">${work.text}</p>
             <p class="card-text">${work.specs['エリア']} ${work.specs['集落']}</p>
-            <p class="card-text">GPS:${work.latlng}</p>
+            <p class="card-text"><a href="${work.gmapurl}">GPS:${work.latlng}</a></p>
         </div>
     </div>
 </div>`);
