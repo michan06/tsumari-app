@@ -1,0 +1,4880 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.689282,37.110674 ]
+    },
+    "properties": {
+    "Column1.no":"T019",
+    "Column1.title":"６つの徳の物語",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"鉢",
+    "Column1.specs.マップコード":"253668784*83"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.786507,37.203039 ]
+    },
+    "properties": {
+    "Column1.no":"T020",
+    "Column1.title":"小さな家-聞き忘れのないように-",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"神明水辺公園",
+    "Column1.specs.マップコード":"140394892*44"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.7865,37.203039 ]
+    },
+    "properties": {
+    "Column1.no":"T021",
+    "Column1.title":"石の魚たち",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"神明水辺公園",
+    "Column1.specs.マップコード":"140394891*04"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760358,37.138777 ]
+    },
+    "properties": {
+    "Column1.no":"T025",
+    "Column1.title":"越後妻有里山現代美術館［キナーレ］",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":"140181258*11"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760414,37.139263 ]
+    },
+    "properties": {
+    "Column1.no":"T026",
+    "Column1.title":"火を護る螺旋の蛇",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":"140181319*85"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760715,37.139083 ]
+    },
+    "properties": {
+    "Column1.no":"T027",
+    "Column1.title":"シルクの水脈",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":"140181290*25"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760602,37.139276 ]
+    },
+    "properties": {
+    "Column1.no":"T028",
+    "Column1.title":"3つの門のためのネオン",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760704,37.138301 ]
+    },
+    "properties": {
+    "Column1.no":"T029",
+    "Column1.title":"空の水",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.750962,37.14867 ]
+    },
+    "properties": {
+    "Column1.no":"T067",
+    "Column1.title":"アスファルト・スポット",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"妻有大橋",
+    "Column1.specs.マップコード":"140210434*74"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.753564,37.118271 ]
+    },
+    "properties": {
+    "Column1.no":"T074",
+    "Column1.title":"オンマネ カゼ",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"川治",
+    "Column1.specs.マップコード":"140394892*44"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.776593,37.04038 ]
+    },
+    "properties": {
+    "Column1.no":"T076",
+    "Column1.title":"モミガラパーク",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"鍬柄沢",
+    "Column1.specs.マップコード":"253438437*87"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.787043,37.202945 ]
+    },
+    "properties": {
+    "Column1.no":"T112",
+    "Column1.title":"バタフライパビリオン",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"神明水辺公園",
+    "Column1.specs.マップコード":"140394894*13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.8222706,37.2037129 ]
+    },
+    "properties": {
+    "Column1.no":"T120",
+    "Column1.title":"うぶすなの家",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"願入",
+    "Column1.specs.マップコード":"140429062*58"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.822475,37.203667 ]
+    },
+    "properties": {
+    "Column1.no":"T121",
+    "Column1.title":"こもる壺・はじける壺／風呂",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"願入",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.822475,37.203594 ]
+    },
+    "properties": {
+    "Column1.no":"T122",
+    "Column1.title":"緑色の太陽―ロス織部／かまど",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"願入",
+    "Column1.specs.マップコード":"140429062*58"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.822285,37.203594 ]
+    },
+    "properties": {
+    "Column1.no":"T123",
+    "Column1.title":"表面波／囲炉裏",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"願入",
+    "Column1.specs.マップコード":"140429062*58"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.824167,37.2057974 ]
+    },
+    "properties": {
+    "Column1.no":"T134",
+    "Column1.title":"胞衣―みしゃぐち",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"下条",
+    "Column1.specs.マップコード":"140429277*15"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T139",
+    "Column1.title":"かまぼこフェイス",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"新水",
+    "Column1.specs.マップコード":"140249593*15"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.776593,37.04038 ]
+    },
+    "properties": {
+    "Column1.no":"T154",
+    "Column1.title":"マッドメン",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"鍬柄沢",
+    "Column1.specs.マップコード":"253438437*87"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.693445,37.1123 ]
+    },
+    "properties": {
+    "Column1.no":"T173",
+    "Column1.title":"鉢＆田島征三 絵本と木の実の美術館",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"鉢",
+    "Column1.specs.マップコード":"253698107*74"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.823339,37.103427 ]
+    },
+    "properties": {
+    "Column1.no":"T207",
+    "Column1.title":"あかくらん",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"赤倉",
+    "Column1.specs.マップコード":"140069035*06"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.823873,37.104136 ]
+    },
+    "properties": {
+    "Column1.no":"T214",
+    "Column1.title":"もうひとつの特異点",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"二ツ屋",
+    "Column1.specs.マップコード":"253558322*55"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 37.138777,37.138777 ]
+    },
+    "properties": {
+    "Column1.no":"T221",
+    "Column1.title":"ゴースト･サテライト ",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":"140181288*60"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T222",
+    "Column1.title":"○ in □ ",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":"140181288*60"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T223",
+    "Column1.title":"粟津潔文庫",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":"140181288*60"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760358,37.138777 ]
+    },
+    "properties": {
+    "Column1.no":"T224",
+    "Column1.title":"トンネル ",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":"140181288*60"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T225",
+    "Column1.title":"POWERLESS STRUCTURES, FIG. 429 ",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":"140181288*60"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760358,37.138777 ]
+    },
+    "properties": {
+    "Column1.no":"T226",
+    "Column1.title":"Wellenwanne LFO ",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":"140181288*60"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.761687,37.139528 ]
+    },
+    "properties": {
+    "Column1.no":"T227",
+    "Column1.title":"浮遊",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":"140181288*60"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T228",
+    "Column1.title":"フロギストン ",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":"140181288*60"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760358,37.138777 ]
+    },
+    "properties": {
+    "Column1.no":"T229",
+    "Column1.title":"Rolling Cylinder, 2012",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"市街地（キナーレ内）",
+    "Column1.specs.マップコード":"140181288*60"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760138,37.128474 ]
+    },
+    "properties": {
+    "Column1.no":"T230",
+    "Column1.title":"LOST #6",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"市街地（キナーレ内）",
+    "Column1.specs.マップコード":"140181288*60"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T233",
+    "Column1.title":"越後妻有里山現代美術館 館名サイン｢モノリス｣ ",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":"140181288*60"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.779022,37.199196 ]
+    },
+    "properties": {
+    "Column1.no":"T253",
+    "Column1.title":"下条茅葺きの塔",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"下条",
+    "Column1.specs.マップコード":"140393419*53"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.851759,37.131274 ]
+    },
+    "properties": {
+    "Column1.no":"T268",
+    "Column1.title":"大地の記憶",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"枯木又",
+    "Column1.specs.マップコード":"140162347*13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760358,37.138777 ]
+    },
+    "properties": {
+    "Column1.no":"T280",
+    "Column1.title":"ソイル・ライブラリー／新潟",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":"140181288*60"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T281",
+    "Column1.title":"「大地をつつむ皮膚」　十日町文様　カラムシ唐草‘13",
+    "Column1.specs.制作年":"2013",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.777689,37.152187 ]
+    },
+    "properties": {
+    "Column1.no":"T295",
+    "Column1.title":"SOUND TOWER 音の塔",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"中条　八幡",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760358,37.138777 ]
+    },
+    "properties": {
+    "Column1.no":"T304",
+    "Column1.title":"モグラＴＶ",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760358,37.138777 ]
+    },
+    "properties": {
+    "Column1.no":"T305",
+    "Column1.title":"Three Travellers",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T309",
+    "Column1.title":"十日町産業文化発信館 いこて",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"商店街",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760144,37.137232 ]
+    },
+    "properties": {
+    "Column1.no":"T317",
+    "Column1.title":"チョマノモリ",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"商店街",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.756242,37.134655 ]
+    },
+    "properties": {
+    "Column1.no":"T320",
+    "Column1.title":"Winter Circlet",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"十日町駅",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.823504,37.10242 ]
+    },
+    "properties": {
+    "Column1.no":"T321",
+    "Column1.title":"赤倉の学堂",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"赤倉",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.730462,37.096359 ]
+    },
+    "properties": {
+    "Column1.no":"T325",
+    "Column1.title":"Kiss & Goodbye　（土市駅）",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"土市駅",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.717546,37.074303 ]
+    },
+    "properties": {
+    "Column1.no":"T326",
+    "Column1.title":"Kiss & Goodbye （越後水沢駅）",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"越後水沢駅",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T342",
+    "Column1.title":"空気のかたち",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"下条",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T343",
+    "Column1.title":"米",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"下条",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T344",
+    "Column1.title":"裏側の物語",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"上新田",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T345",
+    "Column1.title":"十日町の木",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"山新田",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T346",
+    "Column1.title":"Transitory nature of earthly joy",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"枯木又",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T347",
+    "Column1.title":"Classroom",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"枯木又",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T348",
+    "Column1.title":"Friendship is a sheltering tree（友情は雨宿りの樹）",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"枯木又",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T349",
+    "Column1.title":"環の小屋・パラダイス going to paradise",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"枯木又",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T350",
+    "Column1.title":"アトラスの哀歌",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"中条・高龗神社",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T351",
+    "Column1.title":"Repetitive objects",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"魚沼中条駅",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T352",
+    "Column1.title":"Palimpsest: 空の池",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T353",
+    "Column1.title":"ASOBIBOX",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T353~T380",
+    "Column1.title":"2018年の〈方丈記私記〉～建築家とアーティストによる四畳半の宇宙",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T354",
+    "Column1.title":"十日町 ひと夏の設計事務所",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T355",
+    "Column1.title":"asobiba / mimamoriba",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T356",
+    "Column1.title":"ライトハウス 4.0 越後妻有で軽やかに暮らす",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T357",
+    "Column1.title":"羊の美容室",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T358",
+    "Column1.title":"そば処　割過亭",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T359",
+    "Column1.title":"Echigo-Tsumari Public Sauna",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T360",
+    "Column1.title":"スタンディング酒BAR 酔独楽・よいごま",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T361",
+    "Column1.title":"つくも神の家",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T362",
+    "Column1.title":"Karaoke ＆ Humankind",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T363",
+    "Column1.title":"builds crowd ～街の記憶～",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T364",
+    "Column1.title":"狗鷲庵",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T365",
+    "Column1.title":"Space-time Cave（時空の穴）",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T366",
+    "Column1.title":"TRANSFIGURATION HOUSE",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T367",
+    "Column1.title":"音の迷宮 ネガティブ・サウンド・ライブラリー",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T368",
+    "Column1.title":"SHIFTING STRINGS",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T369",
+    "Column1.title":"A SHELTER OF THE DIGITAL",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T370",
+    "Column1.title":"伸び家",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T372",
+    "Column1.title":"多孔体：2畳c4.5畳",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T373",
+    "Column1.title":"みずたどり",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T374",
+    "Column1.title":"DRAPE HOUSE",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T375",
+    "Column1.title":"方丈記「試機」",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T376",
+    "Column1.title":"hōjō_10x10 feet_shift",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T378",
+    "Column1.title":"Publish－Fablic ~地球に編まれる立体 MAGAZINE~",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T379",
+    "Column1.title":"越後妻有 コラボ甘味屋台",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T380",
+    "Column1.title":"パフォーマンスの秘密 KNOW YOURSELF",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T383",
+    "Column1.title":"ザおこめショー",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"キナーレ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T384",
+    "Column1.title":"喫茶TURN",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T385",
+    "Column1.title":"10th DAY MARKET",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"十日町駅東口",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T386",
+    "Column1.title":"森ノウチ",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T387",
+    "Column1.title":"SNOW OF SPRING",
+    "Column1.specs.制作年":"2017",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"越後妻有文化ホール",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T388",
+    "Column1.title":"THE BIRTH OF THE SPRING",
+    "Column1.specs.制作年":"2017",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"越後妻有文化ホール",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T390",
+    "Column1.title":"光り織",
+    "Column1.specs.制作年":"2017",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"越後妻有文化ホール",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T391",
+    "Column1.title":"大地の恵み／土・圭・垚",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"越後妻有文化ホール",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T392",
+    "Column1.title":"みどりの部屋プロジェクト2018",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"関浅・旧十日町市営スキーハウス",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T393",
+    "Column1.title":"月待ヶ池",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"川治",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T394",
+    "Column1.title":"太田島公園",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"土市",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T396",
+    "Column1.title":"Kiss & Goodbye｜思い出ポスト",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"土市駅、越後水沢駅",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T397",
+    "Column1.title":"カラダのなか、キモチのおく。",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"鉢",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"T398",
+    "Column1.title":"Welcome",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"中手・黒滝",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.731897,37.187032 ]
+    },
+    "properties": {
+    "Column1.no":"K002",
+    "Column1.title":"時空",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"ナカゴグリーンパーク",
+    "Column1.specs.マップコード":"414073066*05"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.731446,37.187262 ]
+    },
+    "properties": {
+    "Column1.no":"K003",
+    "Column1.title":"レイチェル・カーソンに捧ぐ 〜 4つの小さな物語",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"ナカゴグリーンパーク",
+    "Column1.specs.マップコード":"414073094*78"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.736639,37.186042 ]
+    },
+    "properties": {
+    "Column1.no":"K004",
+    "Column1.title":"河岸段丘",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"ナカゴグリーンパーク",
+    "Column1.specs.マップコード":"414072209*71"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.73005,37.188797 ]
+    },
+    "properties": {
+    "Column1.no":"K005",
+    "Column1.title":"光の館",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"ナカゴグリーンパーク",
+    "Column1.specs.マップコード":"414072269*45"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.73385,37.195416 ]
+    },
+    "properties": {
+    "Column1.no":"K007",
+    "Column1.title":"森の番人",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"節黒城跡",
+    "Column1.specs.マップコード":"414103073*08"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.728861,37.197006 ]
+    },
+    "properties": {
+    "Column1.no":"K008",
+    "Column1.title":"さわれる風景Ⅰ　城主の座",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"節黒城跡",
+    "Column1.specs.マップコード":"414102265*62"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.733023,37.196476 ]
+    },
+    "properties": {
+    "Column1.no":"K009",
+    "Column1.title":"節黒城跡キャンプ場コテージＡ棟",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"節黒城跡",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.732862,37.196168 ]
+    },
+    "properties": {
+    "Column1.no":"K010",
+    "Column1.title":"節黒城跡キャンプ場コテージB棟",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"節黒城跡",
+    "Column1.specs.マップコード":"414103159*73"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.732798,37.195878 ]
+    },
+    "properties": {
+    "Column1.no":"K011",
+    "Column1.title":"節黒城跡キャンプ場コテージC棟",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"節黒城跡",
+    "Column1.specs.マップコード":"414103129*61"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.73209,37.195878 ]
+    },
+    "properties": {
+    "Column1.no":"K012",
+    "Column1.title":"詩人の瞑想の路",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"節黒城跡",
+    "Column1.specs.マップコード":"414103127*58"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.731639,37.194732 ]
+    },
+    "properties": {
+    "Column1.no":"K013",
+    "Column1.title":"庭師の巨人",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"節黒城跡",
+    "Column1.specs.マップコード":"414103005*65"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.730888,37.194151 ]
+    },
+    "properties": {
+    "Column1.no":"K014",
+    "Column1.title":"空と大地の展望台",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"節黒城跡",
+    "Column1.specs.マップコード":"414073751*00"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.73194,37.186485 ]
+    },
+    "properties": {
+    "Column1.no":"K021",
+    "Column1.title":"ベリー・スプーン",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"ナカゴグリーンパーク",
+    "Column1.specs.マップコード":"414073006*06十日町市上野甲2924-28"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.730534,37.188262 ]
+    },
+    "properties": {
+    "Column1.no":"K022",
+    "Column1.title":"絵画のための見晴らし小屋・妻有",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"ナカゴグリーンパーク",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.731575,37.188134 ]
+    },
+    "properties": {
+    "Column1.no":"K023",
+    "Column1.title":"グリーン ヴィラ",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"ナカゴグリーンパーク",
+    "Column1.specs.マップコード":"414073185*53"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.683681,37.189621 ]
+    },
+    "properties": {
+    "Column1.no":"K029",
+    "Column1.title":"20 minute walk",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"中仙田",
+    "Column1.specs.マップコード":"414067342*12"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.7485,37.179777 ]
+    },
+    "properties": {
+    "Column1.no":"K033",
+    "Column1.title":"境界の神話",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"上野",
+    "Column1.specs.マップコード":"140330186*50"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.745233,37.173568 ]
+    },
+    "properties": {
+    "Column1.no":"K034",
+    "Column1.title":"パッセージ",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"霜条、伊勢平治",
+    "Column1.specs.マップコード":"414014414*38"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.7424301,37.2086432 ]
+    },
+    "properties": {
+    "Column1.no":"K087",
+    "Column1.title":"雪のめぐみ",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"仁田",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K092",
+    "Column1.title":"みずたどり",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"新町新田",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K093",
+    "Column1.title":"カードリフターズ",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"上野",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K094",
+    "Column1.title":"里山アート動物園",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K095",
+    "Column1.title":"マイグレーションエコー",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K095、K096、K097、K098、K099、K100、K101、K102、K103、K104",
+    "Column1.title":"野投　-スペクトラム展",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K096",
+    "Column1.title":"エコシステム：昆虫",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K097",
+    "Column1.title":"ファンファーレエコー",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K098",
+    "Column1.title":"これはパイプではない",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K099",
+    "Column1.title":"枯れゆく木のための布",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K100",
+    "Column1.title":"野原に吹く風",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K101",
+    "Column1.title":"風をつかむ彫刻の森",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K102",
+    "Column1.title":"プライベートトラップ6.0",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K103",
+    "Column1.title":"球体",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K104",
+    "Column1.title":"夢見る馬",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K105",
+    "Column1.title":"越後妻有レインボーハット2018",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"ナカゴグリーンパーク",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K106",
+    "Column1.title":"十日町高倉博物館―還るところ―",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"高倉",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"K107",
+    "Column1.title":"記憶の痕跡と明日の杜",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"川西",
+    "Column1.specs.集落":"千手",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.708776,37.068242 ]
+    },
+    "properties": {
+    "Column1.no":"N001",
+    "Column1.title":"鳥たちの家",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"ミオンなかさと",
+    "Column1.specs.マップコード":"253520733*26"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.70868,37.068084 ]
+    },
+    "properties": {
+    "Column1.no":"N002",
+    "Column1.title":"ブルーミング・スパイラル",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"ミオンなかさと",
+    "Column1.specs.マップコード":"253520732*78"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.7079995,37.067143 ]
+    },
+    "properties": {
+    "Column1.no":"N003",
+    "Column1.title":"河岸の燈籠",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"ミオンなかさと",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.7090456,37.0676074 ]
+    },
+    "properties": {
+    "Column1.no":"N004",
+    "Column1.title":"暖かいイメージのために −信濃川",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"ミオンなかさと",
+    "Column1.specs.マップコード":"253520795*52"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.701609,37.066444 ]
+    },
+    "properties": {
+    "Column1.no":"N005",
+    "Column1.title":"妻有で育つ木",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"ミオンなかさと",
+    "Column1.specs.マップコード":"253519557*51"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.700987,37.066637 ]
+    },
+    "properties": {
+    "Column1.no":"N006",
+    "Column1.title":"いちばん長い川",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"ミオンなかさと",
+    "Column1.specs.マップコード":"253519555*22"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"N008",
+    "Column1.title":"川はどこにいった",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"貝野",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.695644,37.051101 ]
+    },
+    "properties": {
+    "Column1.no":"N009",
+    "Column1.title":"克雪人",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"山崎",
+    "Column1.specs.マップコード":"253458685*43"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.695,37.043574 ]
+    },
+    "properties": {
+    "Column1.no":"N010",
+    "Column1.title":"日本に向けて北を定めよ(74°33’2”) ",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"通り山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.725245,37.000548 ]
+    },
+    "properties": {
+    "Column1.no":"N012",
+    "Column1.title":"中里かかしの庭",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"東田尻",
+    "Column1.specs.マップコード":"253282436*10"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"N016",
+    "Column1.title":"信濃川はかつて現在より25メートル高い位置を流れていた—天空に浮かぶ信濃川の航跡",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"貝野",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.718003,37.017494 ]
+    },
+    "properties": {
+    "Column1.no":"N017",
+    "Column1.title":"LIKE SWIMMING",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"白羽毛",
+    "Column1.specs.マップコード":"253341735*61"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.706298,37.01725 ]
+    },
+    "properties": {
+    "Column1.no":"N019",
+    "Column1.title":"ポチョムキン",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"倉俣",
+    "Column1.specs.マップコード":"253340634*50"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.710611,36.971838 ]
+    },
+    "properties": {
+    "Column1.no":"N021",
+    "Column1.title":"スネーク・パス",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"田代",
+    "Column1.specs.マップコード":"253190229*12"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.699152,37.03233 ]
+    },
+    "properties": {
+    "Column1.no":"N028",
+    "Column1.title":"たくさんの失われた窓のために",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"桔梗原",
+    "Column1.specs.マップコード":"253399458*06"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.697972,37.029555 ]
+    },
+    "properties": {
+    "Column1.no":"N034",
+    "Column1.title":"エターナル",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"芋川",
+    "Column1.specs.マップコード":"253399154*86"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.695419,37.065143 ]
+    },
+    "properties": {
+    "Column1.no":"N046",
+    "Column1.title":"遠くと出会う場所",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"小原",
+    "Column1.specs.マップコード":"253518384*01"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.730704,36.995947 ]
+    },
+    "properties": {
+    "Column1.no":"N052",
+    "Column1.title":"空の粒子／西田尻",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"西田尻",
+    "Column1.specs.マップコード":"253283122*66"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.744557,36.984523 ]
+    },
+    "properties": {
+    "Column1.no":"N054",
+    "Column1.title":"うつすいえ",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"小出",
+    "Column1.specs.マップコード":"253224711*74"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.698951,37.026543 ]
+    },
+    "properties": {
+    "Column1.no":"N058",
+    "Column1.title":"清津川プレスセンター「きよっつ」",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"芋川",
+    "Column1.specs.マップコード":"253398239*34"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.6987723,37.0733532 ]
+    },
+    "properties": {
+    "Column1.no":"N059",
+    "Column1.title":"龍の尾 ",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"堀之内",
+    "Column1.specs.マップコード":"253549367*38"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760138,37.128474 ]
+    },
+    "properties": {
+    "Column1.no":"N061",
+    "Column1.title":"未来への航海",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"越後田沢駅",
+    "Column1.specs.マップコード":"253488263*54"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.760138,37.128474 ]
+    },
+    "properties": {
+    "Column1.no":"N062",
+    "Column1.title":"水から誕生した心の杖",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"越後田沢駅",
+    "Column1.specs.マップコード":"253488263*54"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.74059,36.987507 ]
+    },
+    "properties": {
+    "Column1.no":"N072",
+    "Column1.title":"磯辺行久記念 越後妻有清津倉庫美術館",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"角間",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"N079,080",
+    "Column1.title":"ペリスコープ／ライトケーブ",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"N081",
+    "Column1.title":"おもいをなう",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"小出",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"N082",
+    "Column1.title":"磯辺行久の世界―記号から環境へ",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"中里",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614794,37.131742 ]
+    },
+    "properties": {
+    "Column1.no":"D001",
+    "Column1.title":"棚田",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"農舞台",
+    "Column1.specs.マップコード":"298179365*35"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.617892,37.130727 ]
+    },
+    "properties": {
+    "Column1.no":"D002",
+    "Column1.title":"砦 61",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.618622,37.130633 ]
+    },
+    "properties": {
+    "Column1.no":"D003",
+    "Column1.title":"○△□の塔と赤とんぼ ",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179288*64"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.617796,37.130154 ]
+    },
+    "properties": {
+    "Column1.no":"D004",
+    "Column1.title":"水のプール",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.617629,37.129739 ]
+    },
+    "properties": {
+    "Column1.no":"D005",
+    "Column1.title":"関係—大地・北斗七星",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.617334,37.130111 ]
+    },
+    "properties": {
+    "Column1.no":"D006",
+    "Column1.title":"かかしプロジェクト",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.616079,37.130384 ]
+    },
+    "properties": {
+    "Column1.no":"D007",
+    "Column1.title":"夏の三日月",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179249*05"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.616326,37.12994 ]
+    },
+    "properties": {
+    "Column1.no":"D008",
+    "Column1.title":"希望という種子（シュジ）",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179190*21"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614588,37.12905 ]
+    },
+    "properties": {
+    "Column1.no":"D009",
+    "Column1.title":"今を楽しめ",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179094*82"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614856,37.129349 ]
+    },
+    "properties": {
+    "Column1.no":"D010",
+    "Column1.title":"観測所",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179125*25"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614572,37.129405 ]
+    },
+    "properties": {
+    "Column1.no":"D011",
+    "Column1.title":"平和の庭",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179123*41"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614214,37.130062 ]
+    },
+    "properties": {
+    "Column1.no":"D012",
+    "Column1.title":"遊歩道整備計画",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179182*67"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.613729,37.129957 ]
+    },
+    "properties": {
+    "Column1.no":"D013",
+    "Column1.title":"あたかも時を光合成するように降りてきた〜レッドデーターの植物より",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179180*41"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614094,37.130231 ]
+    },
+    "properties": {
+    "Column1.no":"D014",
+    "Column1.title":"雪国の杉の下で",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614244,37.130949 ]
+    },
+    "properties": {
+    "Column1.no":"D015",
+    "Column1.title":"西洋料理店 山猫軒 ",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179302*16"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.613086,37.126022 ]
+    },
+    "properties": {
+    "Column1.no":"D016",
+    "Column1.title":"木",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298148688*37"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.623595,37.139749 ]
+    },
+    "properties": {
+    "Column1.no":"D046",
+    "Column1.title":"「時の蘇生」柿の木プロジェクト in 松代",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"太平",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.657289,37.135534 ]
+    },
+    "properties": {
+    "Column1.no":"D047",
+    "Column1.title":"人　自然に再び入る",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"犬伏",
+    "Column1.specs.マップコード":"253754787*42"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.654242,37.135559 ]
+    },
+    "properties": {
+    "Column1.no":"D048",
+    "Column1.title":"ミルタウン・バスストップ",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"犬伏",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.618552,37.152155 ]
+    },
+    "properties": {
+    "Column1.no":"D050",
+    "Column1.title":"ジャック･イン･ザ･ボックスまつだいヴァージョン",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"蓬平",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.617839,37.151466 ]
+    },
+    "properties": {
+    "Column1.no":"D051",
+    "Column1.title":"視点",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"蓬平",
+    "Column1.specs.マップコード":"298239735*72"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.618219,37.151851 ]
+    },
+    "properties": {
+    "Column1.no":"D052",
+    "Column1.title":"回廊・・・時の水脈",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"蓬平",
+    "Column1.specs.マップコード":"298239767*25"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614699,37.131742 ]
+    },
+    "properties": {
+    "Column1.no":"D054",
+    "Column1.title":"まつだい住民博物館",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"農舞台",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.615079,37.131742 ]
+    },
+    "properties": {
+    "Column1.no":"D055",
+    "Column1.title":"カフェ・ルフレ",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"まつだい「農舞台」",
+    "Column1.specs.マップコード":"298179365*35十日町市松代3743-1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614984,37.131742 ]
+    },
+    "properties": {
+    "Column1.no":"D057",
+    "Column1.title":"火の周り、砂漠の中",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"農舞台",
+    "Column1.specs.マップコード":"298179365*35"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614889,37.131742 ]
+    },
+    "properties": {
+    "Column1.no":"D058",
+    "Column1.title":"「関係 - 黒板の教室」（教育空間）「関係 - 農夫の仕事」（農耕空間）",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"農舞台",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.615174,37.131742 ]
+    },
+    "properties": {
+    "Column1.no":"D059",
+    "Column1.title":"空と地の間にて",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"農舞台",
+    "Column1.specs.マップコード":"298179365*35"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.61447,37.131377 ]
+    },
+    "properties": {
+    "Column1.no":"D060",
+    "Column1.title":"かまぼこアートセンター",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"農舞台",
+    "Column1.specs.マップコード":"298179363*67"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614244,37.131907 ]
+    },
+    "properties": {
+    "Column1.no":"D061",
+    "Column1.title":"花咲ける妻有",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"農舞台",
+    "Column1.specs.マップコード":"298179392*40"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.616621,37.131685 ]
+    },
+    "properties": {
+    "Column1.no":"D063",
+    "Column1.title":"旅人の迷路",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"農舞台",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.616712,37.131691 ]
+    },
+    "properties": {
+    "Column1.no":"D064",
+    "Column1.title":"記憶—再生",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179404*81"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.613708,37.127596 ]
+    },
+    "properties": {
+    "Column1.no":"D066",
+    "Column1.title":"米の家",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614202,37.126415 ]
+    },
+    "properties": {
+    "Column1.no":"D067",
+    "Column1.title":"融（とおる）",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.610135,37.126646 ]
+    },
+    "properties": {
+    "Column1.no":"D068",
+    "Column1.title":"フィヒテ（唐檜）",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298149840*16"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.611133,37.12698 ]
+    },
+    "properties": {
+    "Column1.no":"D069",
+    "Column1.title":"WDスパイラル・パートⅢマジック・シアター",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298148801*61"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.612796,37.125115 ]
+    },
+    "properties": {
+    "Column1.no":"D070",
+    "Column1.title":"まつだいスモールタワー",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.617994,37.134135 ]
+    },
+    "properties": {
+    "Column1.no":"D099",
+    "Column1.title":"創作の庭",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"松代",
+    "Column1.specs.マップコード":"298179646*24"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.623428,37.108723 ]
+    },
+    "properties": {
+    "Column1.no":"D100",
+    "Column1.title":"リトル・ユートピアン・ハウス",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"小屋丸",
+    "Column1.specs.マップコード":"253660605*16"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.653169,37.138655 ]
+    },
+    "properties": {
+    "Column1.no":"D101",
+    "Column1.title":"翼／飛行演習装置",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"犬伏",
+    "Column1.specs.マップコード":"253783262*71"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.612592,37.150329 ]
+    },
+    "properties": {
+    "Column1.no":"D102",
+    "Column1.title":"ファウンド・ア・メンタル・コネクション3  全ての場所が世界の真ん中",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"蓬平",
+    "Column1.specs.マップコード":"298238626*70"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.580459,37.164215 ]
+    },
+    "properties": {
+    "Column1.no":"D103",
+    "Column1.title":"明後日新聞社文化事業部",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"莇平",
+    "Column1.specs.マップコード":"298295301*50"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.56885,37.139282 ]
+    },
+    "properties": {
+    "Column1.no":"D104",
+    "Column1.title":"ぶなが池植物公園「マザーツリー空中庭園」",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"蒲生",
+    "Column1.specs.マップコード":"298203229*07"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.560321,37.108227 ]
+    },
+    "properties": {
+    "Column1.no":"D106",
+    "Column1.title":"自然と文化の出会う公園",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"室野",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D115",
+    "Column1.title":"スキマをすすむ",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"農舞台",
+    "Column1.specs.マップコード":"298179365*35"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614963,37.131569 ]
+    },
+    "properties": {
+    "Column1.no":"D116",
+    "Column1.title":"転がるジャングルジム",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"まつだい「農舞台」",
+    "Column1.specs.マップコード":"298179365*35"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.615296,37.13189 ]
+    },
+    "properties": {
+    "Column1.no":"D125",
+    "Column1.title":"地震計",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"農舞台",
+    "Column1.specs.マップコード":"298179365*35"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.656312,37.135055 ]
+    },
+    "properties": {
+    "Column1.no":"D129",
+    "Column1.title":"イナゴハビタンボ",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"犬伏",
+    "Column1.specs.マップコード":"253754754*51"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.639693,37.165925 ]
+    },
+    "properties": {
+    "Column1.no":"D132",
+    "Column1.title":"マウンテン",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"桐山",
+    "Column1.specs.マップコード":"253872484*05"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.532898,37.121582 ]
+    },
+    "properties": {
+    "Column1.no":"D153",
+    "Column1.title":"私たちはそれを、ありありと憶い浮かべることができる",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"峠",
+    "Column1.specs.マップコード":"298139189*47"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.616433,37.131531 ]
+    },
+    "properties": {
+    "Column1.no":"D155",
+    "Column1.title":"ゲロンパ大合唱",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"農舞台",
+    "Column1.specs.マップコード":"298179365*35"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.61889,37.130975 ]
+    },
+    "properties": {
+    "Column1.no":"D184",
+    "Column1.title":"リバース・シティー",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179319*00"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.618279,37.131086 ]
+    },
+    "properties": {
+    "Column1.no":"D185",
+    "Column1.title":"サウンド・パーク",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179317*24"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.614169,37.13053 ]
+    },
+    "properties": {
+    "Column1.no":"D186",
+    "Column1.title":"スペース・スリター・オーケストラ2015",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179242*33"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.621771,37.131894 ]
+    },
+    "properties": {
+    "Column1.no":"D194",
+    "Column1.title":"帰ってきた赤ふん少年",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"小荒戸",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.646236,37.173899 ]
+    },
+    "properties": {
+    "Column1.no":"D209",
+    "Column1.title":"静寂あるいは喧騒の中で／手旗信号の庭",
+    "Column1.specs.制作年":"2009、2012",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"桐山",
+    "Column1.specs.マップコード":"414002477*75"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.53321,37.121685 ]
+    },
+    "properties": {
+    "Column1.no":"D217",
+    "Column1.title":"庭が生まれるところ…そして",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"峠",
+    "Column1.specs.マップコード":"298139221*55"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.615079,37.131742 ]
+    },
+    "properties": {
+    "Column1.no":"D218",
+    "Column1.title":"引き出しアート ",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"まつだい「農舞台」",
+    "Column1.specs.マップコード":"298179365*35十日町市松代3743-1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.6135538,37.1317589 ]
+    },
+    "properties": {
+    "Column1.no":"D247",
+    "Column1.title":"まつだい郷土資料館",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"松代",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D248",
+    "Column1.title":"イエローフラワー",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":"298179310*66"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.64735,37.17343 ]
+    },
+    "properties": {
+    "Column1.no":"D266",
+    "Column1.title":"ブランコの家 ",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"桐山",
+    "Column1.specs.マップコード":"414003421*65"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.580314,37.165487 ]
+    },
+    "properties": {
+    "Column1.no":"D268",
+    "Column1.title":"想像する家",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"莇平",
+    "Column1.specs.マップコード":"298295336*67"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.613064,37.12854 ]
+    },
+    "properties": {
+    "Column1.no":"D311",
+    "Column1.title":"円－縁－演",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.615341,37.127983 ]
+    },
+    "properties": {
+    "Column1.no":"D312",
+    "Column1.title":"人生のアーチ",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"城山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D317",
+    "Column1.title":"松代商店街周辺における土壁による修復プロジェクト",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"松代",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.61035,37.134703 ]
+    },
+    "properties": {
+    "Column1.no":"D320",
+    "Column1.title":"黄金の遊戯場",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"松代",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.610545,37.147985 ]
+    },
+    "properties": {
+    "Column1.no":"D322",
+    "Column1.title":"影向（ようごう）の家",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"蓬平",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.647717,37.173663 ]
+    },
+    "properties": {
+    "Column1.no":"D325",
+    "Column1.title":"BankART妻有",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"桐山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D330",
+    "Column1.title":"ドクターズ・ハウス",
+    "Column1.specs.制作年":"2015、2017",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"蒲生",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.56792,37.116213 ]
+    },
+    "properties": {
+    "Column1.no":"D331",
+    "Column1.title":"奴奈川キャンパス",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"室野",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.56792,37.116213 ]
+    },
+    "properties": {
+    "Column1.no":"D332",
+    "Column1.title":"大地のおくりもの",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"室野",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D338",
+    "Column1.title":"はなしるべ",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"室野",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D339",
+    "Column1.title":"D339 日芸フェスティバル",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"奴奈川キャンパス",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D340",
+    "Column1.title":"南極ビエンナーレ – フラム号2",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"室野",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D341",
+    "Column1.title":"天上大風",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"室野",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D342",
+    "Column1.title":"アコーディオン",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"室野",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D343",
+    "Column1.title":"ライトの養育所",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"室野",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D344",
+    "Column1.title":"五百筆",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"室野",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D345",
+    "Column1.title":"EDEN",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"星峠",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D346",
+    "Column1.title":"狐の棚田プロジェクト2018",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"田野倉",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D347",
+    "Column1.title":"アート・フラグメント・コレクション",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"清水",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D348",
+    "Column1.title":"パインツーリズム",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"清水",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D349",
+    "Column1.title":"昼の光ににじむ灯",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"清水",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D350",
+    "Column1.title":"「イダキ：ディジュリドゥとオーストラリアの大地の音」展",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"まつだい「農舞台」",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D351",
+    "Column1.title":"Camera Obscura Project",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"農舞台",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D353",
+    "Column1.title":"hi 8 way",
+    "Column1.specs.制作年":"2017",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"松代城山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D354",
+    "Column1.title":"カサバラタ",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D355",
+    "Column1.title":"ゴースト ダンス",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"D356",
+    "Column1.title":"SF (Summer Fiction)",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"松代商店街",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.560445,37.038967 ]
+    },
+    "properties": {
+    "Column1.no":"Y002",
+    "Column1.title":"分岐点だらけの庭",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"大厳寺高原",
+    "Column1.specs.マップコード":"790727319*67"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.56523,37.041506 ]
+    },
+    "properties": {
+    "Column1.no":"Y003",
+    "Column1.title":"悠久のいとなみ—The Eternal ",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"大厳寺高原",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.565246,37.039716 ]
+    },
+    "properties": {
+    "Column1.no":"Y005",
+    "Column1.title":"大地とともに—記憶の風景",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"大厳寺高原",
+    "Column1.specs.マップコード":"790728336*32"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"Y006",
+    "Column1.title":"※",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"大厳寺",
+    "Column1.specs.マップコード":"790727296*51"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.60297,37.065811 ]
+    },
+    "properties": {
+    "Column1.no":"Y011",
+    "Column1.title":"峡谷の燈籠",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"湯本",
+    "Column1.specs.マップコード":"790822471*33"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.602931,37.065571 ]
+    },
+    "properties": {
+    "Column1.no":"Y012",
+    "Column1.title":"メタモルフォーゼ―場の記憶―「松之山の植生を探る」",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"湯本",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.593946,37.065091 ]
+    },
+    "properties": {
+    "Column1.no":"Y013",
+    "Column1.title":"夢の家",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"上湯",
+    "Column1.specs.マップコード":"790821409*15"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.617892,37.099568 ]
+    },
+    "properties": {
+    "Column1.no":"Y019",
+    "Column1.title":"越後松之山「森の学校」キョロロ",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"キョロロ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.617742,37.099718 ]
+    },
+    "properties": {
+    "Column1.no":"Y020",
+    "Column1.title":"メタモルフォーゼ―場の記憶—松之山—",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"松口",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.617742,37.099718 ]
+    },
+    "properties": {
+    "Column1.no":"Y021",
+    "Column1.title":"キョロロのTin-Kin-Pin —音の泉",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"キョロロ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.618042,37.099718 ]
+    },
+    "properties": {
+    "Column1.no":"Y022",
+    "Column1.title":"大地、水、宇宙",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"キョロロ",
+    "Column1.specs.マップコード":"298059523*42"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.618042,37.099418 ]
+    },
+    "properties": {
+    "Column1.no":"Y023",
+    "Column1.title":"足下の水（200㎥ ）",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"キョロロ",
+    "Column1.specs.マップコード":"298059523*42"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.617742,37.099722 ]
+    },
+    "properties": {
+    "Column1.no":"Y024",
+    "Column1.title":"松之山プロジェクト",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"松之山",
+    "Column1.specs.マップコード":"298059555*65"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.616991,37.099619 ]
+    },
+    "properties": {
+    "Column1.no":"Y025",
+    "Column1.title":"ネイチャーウォーク",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"キョロロ",
+    "Column1.specs.マップコード":"298059522*12"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.590115,37.121625 ]
+    },
+    "properties": {
+    "Column1.no":"Y026",
+    "Column1.title":"ステップ イン プラン ",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"小谷",
+    "Column1.specs.マップコード":"298146185*41"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.5944515,37.1030535 ]
+    },
+    "properties": {
+    "Column1.no":"Y027",
+    "Column1.title":"名前蔵",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"小谷",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.612957,37.101707 ]
+    },
+    "properties": {
+    "Column1.no":"Y028",
+    "Column1.title":"悠久なる恵みー松之山の野草の花々とブナ林ー",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"大荒戸",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.602378,37.087159 ]
+    },
+    "properties": {
+    "Column1.no":"Y029",
+    "Column1.title":"星の誕生",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"松之山",
+    "Column1.specs.マップコード":"298027080*28"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.593967,37.06492 ]
+    },
+    "properties": {
+    "Column1.no":"Y035",
+    "Column1.title":"エリクシール／不老不死の薬",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"上湯",
+    "Column1.specs.マップコード":"790821379*46"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.592916,37.064629 ]
+    },
+    "properties": {
+    "Column1.no":"Y036",
+    "Column1.title":"収穫の家",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"上湯",
+    "Column1.specs.マップコード":"790821346*25"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.617346,37.099702 ]
+    },
+    "properties": {
+    "Column1.no":"Y041",
+    "Column1.title":"超高解像度人間大昆虫写真 ［life-size］",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"森の学校キョロロ",
+    "Column1.specs.マップコード":"298059523*42"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"Y041、Y102、Y103、Y104",
+    "Column1.title":"空想×体験！里山のミクロとマクロのいきものラボ",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"松口",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.5944515,37.1030535 ]
+    },
+    "properties": {
+    "Column1.no":"Y045",
+    "Column1.title":"ラトビアから遠い日本へ",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"小谷",
+    "Column1.specs.マップコード":"298086021*66"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.632805,37.068396 ]
+    },
+    "properties": {
+    "Column1.no":"Y052",
+    "Column1.title":"最後の教室",
+    "Column1.specs.制作年":"2006",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"東川",
+    "Column1.specs.マップコード":"253511759*64"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.561169,37.039755 ]
+    },
+    "properties": {
+    "Column1.no":"Y065",
+    "Column1.title":"Sky Catcher09",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"大厳寺高原",
+    "Column1.specs.マップコード":"790727381*78"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.586371,37.05212 ]
+    },
+    "properties": {
+    "Column1.no":"Y068",
+    "Column1.title":"掃天帯土（そうてんたいち）−天水越の塔−",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"天水越",
+    "Column1.specs.マップコード":"790760802*03"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.622118,37.08429 ]
+    },
+    "properties": {
+    "Column1.no":"Y069",
+    "Column1.title":"黎の家",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"坂下",
+    "Column1.specs.マップコード":"790884624*06"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.636646,37.076742 ]
+    },
+    "properties": {
+    "Column1.no":"Y072",
+    "Column1.title":"家の記憶",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"下鰕池",
+    "Column1.specs.マップコード":"253541773*63"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.556103,37.05795 ]
+    },
+    "properties": {
+    "Column1.no":"Y083",
+    "Column1.title":"ディラン･ンラング-山の家 ",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"浦田",
+    "Column1.specs.マップコード":"790787513*26"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"Y084",
+    "Column1.title":"夢の本",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"上湯",
+    "Column1.specs.マップコード":"790821409*15"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"Y101",
+    "Column1.title":"影の劇場　〜愉快なゆうれい達〜 ",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"東川",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"Y105",
+    "Column1.title":"雪世界",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"湯山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"Y106",
+    "Column1.title":"ブラックシンボル",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"湯本",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"Y107",
+    "Column1.title":"ガーディアン",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"浦田",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"Y108",
+    "Column1.title":"You are here, Tokamachi Samue",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"浦田",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"Y109",
+    "Column1.title":"Lost Winter",
+    "Column1.specs.制作年":"2017",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"小谷",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.618279,37.023679 ]
+    },
+    "properties": {
+    "Column1.no":"M001",
+    "Column1.title":"ドラゴン現代美術館",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"マウンテンパーク津南",
+    "Column1.specs.マップコード":"790674437*54"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.615468,37.026805 ]
+    },
+    "properties": {
+    "Column1.no":"M002",
+    "Column1.title":"カモシカの家族",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"マウンテンパーク",
+    "Column1.specs.マップコード":"790674757*80"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.616186,37.025135 ]
+    },
+    "properties": {
+    "Column1.no":"M003",
+    "Column1.title":"森",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"マウンテンパーク",
+    "Column1.specs.マップコード":"790674579*10"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.61771,37.011343 ]
+    },
+    "properties": {
+    "Column1.no":"M011",
+    "Column1.title":"かささぎたちの家",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"上野",
+    "Column1.specs.マップコード":"790614885*21"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.636893,36.918933 ]
+    },
+    "properties": {
+    "Column1.no":"M014",
+    "Column1.title":"Melting Wall",
+    "Column1.specs.制作年":"2003",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"結東",
+    "Column1.specs.マップコード":"790286834*68"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.618279,37.023679 ]
+    },
+    "properties": {
+    "Column1.no":"M024",
+    "Column1.title":"0121-1110=109071",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"マウンテンパーク",
+    "Column1.specs.マップコード":"790674669*42"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.615628,37.010341 ]
+    },
+    "properties": {
+    "Column1.no":"M026",
+    "Column1.title":"時を越える旅",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"上野",
+    "Column1.specs.マップコード":"790614787*73"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.606541,36.99928 ]
+    },
+    "properties": {
+    "Column1.no":"M028",
+    "Column1.title":"国境を越えて",
+    "Column1.specs.制作年":"2009",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"穴山",
+    "Column1.specs.マップコード":"579898485*85"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.626119,37.004233 ]
+    },
+    "properties": {
+    "Column1.no":"M037",
+    "Column1.title":"Air for Everyone",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"田中",
+    "Column1.specs.マップコード":"253300204*06"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.657945,37.05175 ]
+    },
+    "properties": {
+    "Column1.no":"M043",
+    "Column1.title":"土石流のモニュメント",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"辰口",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.588185,36.991786 ]
+    },
+    "properties": {
+    "Column1.no":"M052",
+    "Column1.title":"越後妻有「上郷クローブ座」",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"上郷",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.671402,36.95357 ]
+    },
+    "properties": {
+    "Column1.no":"M056",
+    "Column1.title":"出逢いDEAI",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"太田新田",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.588185,36.991786 ]
+    },
+    "properties": {
+    "Column1.no":"M057",
+    "Column1.title":"「上郷クローブ座」看板ロゴタイプ",
+    "Column1.specs.制作年":"2015",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"宮野原",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"M058",
+    "Column1.title":"ワープクラウド",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"美雪町",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"M059",
+    "Column1.title":"おくり水",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"谷内",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"M061",
+    "Column1.title":"幸福の花",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"M062",
+    "Column1.title":"国境を越えて・絆",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"穴山",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"M063",
+    "Column1.title":"上郷バンドー四季の歌",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"越後妻有「上郷クローブ座」",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"M064",
+    "Column1.title":"上郷クローブ座レストラン 「北越雪譜」",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"上郷",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"M065",
+    "Column1.title":"香港ハウス（建築設計）",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"上郷",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"M066",
+    "Column1.title":"津南ミュージアム・オブ・ザ・ロスト",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"上郷",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"M067",
+    "Column1.title":"石垣田の作品、蜂箱の作品、結東のもうひとつの作品",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"結東",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"M068",
+    "Column1.title":"サイフォン導水のモニュメント",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"辰ノ口",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"A001",
+    "Column1.title":"妻有広域のサイン　まつだい雪国農耕文化村センター「農舞台」のサイン",
+    "Column1.specs.制作年":"2000",
+    "Column1.specs.エリア":"広域",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"A003",
+    "Column1.title":"径庭プロジェクト",
+    "Column1.specs.制作年":"2012",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"十日町、二ツ家、松之山、浦田、上湯",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"A004",
+    "Column1.title":"25分後",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"",
+    "Column1.specs.集落":"",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E062",
+    "Column1.title":"E062 廣田あつ子「霧ノ衣」",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"神明水辺公園 バタフライパビリオン",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E063",
+    "Column1.title":"E063: 小林武史：交響組曲『 円奏の彼方（Beyond The Circle） 』～based on 柴田南雄「ゆく河の流れは絶えずして」～",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"越後妻有文化ホール・十日町市中央公民館「段十ろう」",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E064",
+    "Column1.title":"E064［RAGE Nonstopー激情の連鎖］DA・打 Hit&Silence!!!",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"妻有神社",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E065",
+    "Column1.title":"BACCA＊GOHGIな鉢祭り！2018",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"鉢",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E065",
+    "Column1.title":"E065 おおたか静流 ＋ Asian Wings BACCA＊GOHGIな鉢祭り2018",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"十日町",
+    "Column1.specs.集落":"絵本と木の実の美術館",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E066",
+    "Column1.title":"E066 珍しいキノコ舞踊団＋三田村管打団？ハッピーバカキノコダンスでパレード・パレード！",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"奴奈川キャンパス",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E067",
+    "Column1.title":"E067 星峠雲海マラソン",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"星峠,奴奈川",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E068",
+    "Column1.title":"E068 あざみひら演劇祭",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"明後日新聞社文化事業部",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E069",
+    "Column1.title":"E069 イダキ・イン・コンサート feat. ジャルー＆GOMA",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"まつだい「農舞台」ピロティ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E070",
+    "Column1.title":"E070 Fil de Cocon ～フィル・ド・ココン～ 夏の夜をつむぐ糸",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"まつだい「農舞台」ピロティ",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E071",
+    "Column1.title":"E071 香港演芸学院「引っ越し / 疊韻論」",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"越後妻有「上郷クローブ座」",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E072",
+    "Column1.title":"E072 サンプル / 松井周「自慢の息子",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"津南",
+    "Column1.specs.集落":"越後妻有「上郷クローブ座」",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E080",
+    "Column1.title":"E080 松之山オープンキャンパス",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松之山",
+    "Column1.specs.集落":"三省ハウス",
+    "Column1.specs.マップコード":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Column1.no":"E081",
+    "Column1.title":"E081 アジア・アート・フォーラム 2018 in 越後妻有",
+    "Column1.specs.制作年":"2018",
+    "Column1.specs.エリア":"松代",
+    "Column1.specs.集落":"奴奈川キャンパス",
+    "Column1.specs.マップコード":""
+    }
+  }
+]
+}
