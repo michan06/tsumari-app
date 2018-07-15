@@ -1970,7 +1970,7 @@ var coorsField = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 37.138777,37.138777 ]
+       "coordinates":  [ 138.760414, 37.139263 ]
     },
     "properties": {
     "Column1.no":"T221",
