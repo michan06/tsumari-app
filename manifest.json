@@ -6,7 +6,7 @@
   "theme_color": "#0971ac",
   "background_color": "#0971ac",
   "icons": [{
-    "src": "/images/android-chrome-192x192.png",
+    "src": "/tsumari-app/images/android-chrome-192x192.png",
     "sizes": "192x192",
     "type": "image/png"
   }]
