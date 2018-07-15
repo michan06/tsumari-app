@@ -65,7 +65,7 @@
                     <input type="radio" name="buttonArea" id="buttonAreaE" data-id="E" autocomplete="off">E
                 </label>
             </div>
-            <a class="btn btn-outline-primary" id="buttonMap" href="/tsumari-app/map.html">Map</a>
+            <button class="btn btn-outline-primary" type="button" id="buttonMap">Map</button>
             <!-- <div class="input-group">
                 <div class="input-group-prepend">
                     <div class="input-group-text">
@@ -136,6 +136,9 @@
 </div>`);
         });
         lazyload();
+        let showMap = function(evt){
+          $(".nav-tabContent").html('<iframe src="/tsumari-app/map.html"></iframe>')
+        };
 
         let buttonHandler = function(evt){
             var sourceButton = $(evt.target)
@@ -177,6 +180,7 @@
         $("#buttonD").on("click", buttonHandler);
         $("#buttonY").on("click", buttonHandler);
         $("#buttonM").on("click", buttonHandler);
+        $("#buttonMap").on("click", showMap);
         $('input[name="buttonArea"]:radio' ).change(buttonHandler);
         // $('#work_no_filter' ).change(buttonHandler);
         h = $(window).height() - $('#buttonRow').height()-10;
