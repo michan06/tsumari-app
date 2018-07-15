@@ -136,7 +136,7 @@
         lazyload();
         let showMap = function(evt){
         //   $(".nav-tabContent").html('<iframe src="/tsumari-app/map.html"></iframe>')
-            $('#list-map').tab('show');
+            $('#list-map').show();
         };
 
         let buttonHandler = function(evt){
@@ -185,6 +185,12 @@
         h = $(window).height() - $('#buttonRow').height()-10;
         $(".list-container").css('max-height', h +'px');
         $(".tab-container").css('max-height', h +'px');
-    </script>
+
+        $('#list-map').on('shown.bs.tab', function (e) {
+            // e.target // newly activated tab
+            // e.relatedTarget // previous active tab
+            $('#map').width($('.tab-content').width()).height($('.tab-content').height());
+        })
+        </script>
     </body>
 </html>
