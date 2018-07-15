@@ -189,7 +189,7 @@
         $('#list-map').on('shown.bs.tab', function (e) {
             // e.target // newly activated tab
             // e.relatedTarget // previous active tab
-            $('#map').width($('.tab-content').width()).height($('.tab-content').height());
+            $('iframe').width($('.tab-content').width()).height($('.tab-content').height());
         })
         </script>
     </body>
