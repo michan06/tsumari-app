@@ -23,7 +23,12 @@
 			width: 600px;
 			height: 400px;
 		}
-	</style>
+    .leaflet-tooltip.my-labels {
+      background-color: transparent;
+      border: transparent;
+      box-shadow: none;
+      }
+  	</style>
 
 	<style>body { padding: 0; margin: 0; } #map { height: 100%; width: 100vw; }</style>
 </head>
@@ -31,6 +36,7 @@
 
 <div id='map'></div>
 
+<script src="csv\convertcsv3.geojson" type="text/javascript"></script>
 <script>
 	var map = L.map('map').fitWorld();
 
@@ -55,8 +61,52 @@
 	map.on('locationerror', onLocationError);
 
 	map.locate({setView: true, maxZoom: 16});
-</script>
 
+  var baseballIcon = L.icon({
+		iconUrl: 'baseball-marker.png',
+		iconSize: [32, 37],
+		iconAnchor: [16, 37],
+		popupAnchor: [0, -28]
+	});
+
+	function onEachFeature(feature, layer) {
+		var popupContent =
+      `
+      ${feature.properties["Column1.no"]}<br />
+      ${feature.properties["Column1.title"]}<br />
+      ${feature.properties["Column1.specs.制作年"]}<br />
+      ${feature.properties["Column1.specs.エリア"]}<br />
+      ${feature.properties["Column1.specs.集落"]}<br />
+      ${feature.properties["Column1.specs.マップコード"]}<br />
+      `;
+
+		if (feature.properties && feature.properties.popupContent) {
+			popupContent += feature.properties.popupContent;
+		}
+
+		layer.bindPopup(popupContent);
+	}
+  var coorsLayer = L.geoJSON(coorsField , {
+
+		pointToLayer: function (feature, latlng) {
+      var icon = L.divIcon({
+          className: 'meshno',
+          html: feature.properties["Column1.no"]
+      });
+      return L.marker(latlng,/*{icon:icon}*/)
+      .bindTooltip(feature.properties["Column1.no"],
+      {
+        permanent: true,
+        direction: "right",
+        opacity: 0.7,
+       // className: "my-labels"
+      });
+		},
+
+		onEachFeature: onEachFeature
+	}).addTo(map);
+
+</script>
 
 
 </body>
