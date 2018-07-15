@@ -137,6 +137,7 @@
         let showMap = function(evt){
         //   $(".nav-tabContent").html('<iframe src="/tsumari-app/map.html"></iframe>')
             $('#list-map').show();
+            $('iframe').width($('.tab-content').width()).height($('.tab-content').height());
         };
 
         let buttonHandler = function(evt){
