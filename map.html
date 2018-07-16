@@ -10,32 +10,55 @@
 
 	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 	<style>
 		html, body {
 			height: 100%;
 			margin: 0;
+			padding: 0;
 		}
 		#map {
-			width: 600px;
-			height: 400px;
+			width: auto;
+			height: 100%;
 		}
     .leaflet-tooltip.my-labels {
       background-color: transparent;
       border: transparent;
       box-shadow: none;
       }
+	  .tab-container{
+            /* margin-bottom: 10px; */
+            overflow-y:scroll;
+            -webkit-overflow-scrolling: touch;
+        }
   	</style>
 
-	<style>body { padding: 0; margin: 0; } #map { height: 100%; width: 100vw; }</style>
+	<!-- <style>body { padding: 0; margin: 0; } #map { height: 100%; width: 100vw; }</style> -->
 </head>
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-7 list-container p-0">
+				<div id='map'></div>
+				<div class="leaflet-top leaflet-right">
+					<a href="/tsumari-app/index.html" class="btn btn-primary">戻る</a>
+				</div>
+			</div>
+            <div class="col-5 tab-container p-0">
+                <div class="tab-content" id="nav-tabContent">
+                </div>
+            </div>
+        </div>
 
-<div id='map'></div>
-
+	</div>
 <script src="/tsumari-app/csv/tsumari_artworks.json"></script>
 <script>
 	var map = L.map('map').fitWorld();
@@ -43,7 +66,6 @@
   L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
     attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
   }).addTo(map);
-
 	function onLocationFound(e) {
 		var radius = e.accuracy / 2;
 
@@ -108,6 +130,13 @@
 
 	markers = []
     works.forEach(function(work){
+		work.image_url = work.thumbs_url.replace(/_list_thumb\//,'');
+		work.new = work.specs['制作年']=="2018"?'<span class="badge badge-primary">New</span>':"";
+		work.year = work.specs['制作年'];
+		work.mapcode = work.specs['マップコード']?(work.specs['マップコード'].replace(/\B(?=(\d{3})+(?!\d))/g, '-')):"";
+		work.latlng = work.gmaps?(work.gmaps.latlng):"";
+		work.gmapurl = work.gmaps?work.gmaps.href:"";
+		work.gmapurl_q = work.latlng?("https://www.google.com/maps/search/"+work.latlng[1]+","+work.latlng[2]):"";
 		if(work.gmaps && work.gmaps.latlng){
 			markers.push(
 				L.marker([work.gmaps.latlng[1], work.gmaps.latlng[2]])
@@ -119,13 +148,38 @@
 						// className: "my-labels"
 						}
 					)
+					.bindPopup(function(){
+						$('#nav-tabContent').html(`
+					<div class="card">
+        <h5 class="card-title">${work.no} 「${work.title}」</h5>
+        <h6 class="card-subtitle mb-2">${work.specs['エリア']} ${work.specs['集落']?work.specs['集落']:""} ${work.mapcode}</h6>
+        <h6 class="card-subtitle mb-2 text-muted">${work.artist} ${work.specs['制作年']}</h6>
+        <a href="${work.url}">
+            <img class="card-img-top lazyload" src="${work.image_url}" alt="${work.no} ${work.title}">
+        </a>
+        <div class="card-body">
+            <p class="card-text">${work.text}</p>
+            <p class="card-text">GPS:<a href="${work.gmapurl_q}">${work.latlng?work.latlng[1]:""}${work.latlng?(","+work.latlng[2]):""}</a></p>
+        </div>
+    </div>
+					`)})
+						// ${work.no}&nbsp;${work.title}<br />
+						// ${work.artist}&nbsp;${work.specs["制作年"]}<br />
+						// ${work.specs["エリア"]}&nbsp;${work.specs["集落"]}<br />
+						// ${work.specs["マップコード"]}
 			);
 		}
 	});
 	// alert(markers.length);
 	L.layerGroup(markers).addTo(map);
+	// lazyload();
 
-
+	h = $(window).height() - 10;
+	$(".list-container").css('max-height', h +'px');
+	$(".tab-container").css('max-height', h +'px');
+	$("#map").css('max-height', h +'px');
+	$("#map").css('height', h);
+	map.invalidateSize(true);
 
 </script>
 
