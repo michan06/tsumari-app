@@ -36,7 +36,7 @@
 
 <div id='map'></div>
 
-<script src="csv\convertcsv3.geojson" type="text/javascript"></script>
+<script src="/tsumari-app/csv/tsumari_artworks.json"></script>
 <script>
 	var map = L.map('map').fitWorld();
 
@@ -47,9 +47,9 @@
 	function onLocationFound(e) {
 		var radius = e.accuracy / 2;
 
+		map.setView(e.latlng,14);
 		L.marker(e.latlng).addTo(map)
 			.bindPopup("You are within " + radius + " meters from this point").openPopup();
-		map.setView(e.latlng,16);
 		// L.circle(e.latlng, radius).addTo(map);
 	}
 
@@ -62,49 +62,70 @@
 
 	map.locate({setView: true, maxZoom: 16});
 
-  var baseballIcon = L.icon({
-		iconUrl: 'baseball-marker.png',
-		iconSize: [32, 37],
-		iconAnchor: [16, 37],
-		popupAnchor: [0, -28]
-	});
+//   var baseballIcon = L.icon({
+// 		iconUrl: 'baseball-marker.png',
+// 		iconSize: [32, 37],
+// 		iconAnchor: [16, 37],
+// 		popupAnchor: [0, -28]
+// 	});
 
-	function onEachFeature(feature, layer) {
-		var popupContent =
-      `
-      ${feature.properties["Column1.no"]}<br />
-      ${feature.properties["Column1.title"]}<br />
-      ${feature.properties["Column1.specs.制作年"]}<br />
-      ${feature.properties["Column1.specs.エリア"]}<br />
-      ${feature.properties["Column1.specs.集落"]}<br />
-      ${feature.properties["Column1.specs.マップコード"]}<br />
-      `;
+// 	function onEachFeature(feature, layer) {
+// 		var popupContent =
+//       `
+//       ${feature.properties["Column1.no"]}<br />
+//       ${feature.properties["Column1.title"]}<br />
+//       ${feature.properties["Column1.specs.制作年"]}<br />
+//       ${feature.properties["Column1.specs.エリア"]}<br />
+//       ${feature.properties["Column1.specs.集落"]}<br />
+//       ${feature.properties["Column1.specs.マップコード"]}<br />
+//       `;
 
-		if (feature.properties && feature.properties.popupContent) {
-			popupContent += feature.properties.popupContent;
+// 		if (feature.properties && feature.properties.popupContent) {
+// 			popupContent += feature.properties.popupContent;
+// 		}
+
+// 		layer.bindPopup(popupContent);
+// 	}
+//   var coorsLayer = L.geoJSON(coorsField , {
+
+// 		pointToLayer: function (feature, latlng) {
+//       var icon = L.divIcon({
+//           className: 'meshno',
+//           html: feature.properties["Column1.no"]
+//       });
+//       return L.marker(latlng,/*{icon:icon}*/)
+//       .bindTooltip(feature.properties["Column1.no"],
+//       {
+//         permanent: true,
+//         direction: "right",
+//         opacity: 0.7,
+//        // className: "my-labels"
+//       });
+// 		},
+
+// 		onEachFeature: onEachFeature
+// 	}).addTo(map);
+
+	markers = []
+    works.forEach(function(work){
+		if(work.gmaps && work.gmaps.latlng){
+			markers.push(
+				L.marker([work.gmaps.latlng[1], work.gmaps.latlng[2]])
+		      		.bindTooltip(work.no,
+						{
+							permanent: true,
+							direction: "right",
+							opacity: 0.7,
+						// className: "my-labels"
+						}
+					)
+			);
 		}
+	});
+	// alert(markers.length);
+	L.layerGroup(markers).addTo(map);
 
-		layer.bindPopup(popupContent);
-	}
-  var coorsLayer = L.geoJSON(coorsField , {
 
-		pointToLayer: function (feature, latlng) {
-      var icon = L.divIcon({
-          className: 'meshno',
-          html: feature.properties["Column1.no"]
-      });
-      return L.marker(latlng,/*{icon:icon}*/)
-      .bindTooltip(feature.properties["Column1.no"],
-      {
-        permanent: true,
-        direction: "right",
-        opacity: 0.7,
-       // className: "my-labels"
-      });
-		},
-
-		onEachFeature: onEachFeature
-	}).addTo(map);
 
 </script>
 
