@@ -29,11 +29,29 @@
 			width: auto;
 			height: 100%;
 		}
-    .leaflet-tooltip.my-labels {
-      background-color: transparent;
-      border: transparent;
-      box-shadow: none;
-      }
+		.leaflet-tooltip.my-labels {
+		background-color: transparent;
+		border: transparent;
+		box-shadow: none;
+		}
+		.leaflet-tooltip.my-labels-T {
+		background-color: #F2D7CC;
+		}
+		.leaflet-tooltip.my-labels-K {
+		background-color: #DAECF9;
+		}
+		.leaflet-tooltip.my-labels-D {
+		background-color: #D6F0D2;
+		}
+		.leaflet-tooltip.my-labels-Y {
+		background-color: #E3DAEC;
+		}
+		.leaflet-tooltip.my-labels-M {
+		background-color: #FCF5D9;
+		}
+		.leaflet-tooltip.my-labels-N {
+		background-color: #FAE7D6;
+		}
 	  .tab-container{
             /* margin-bottom: 10px; */
             overflow-y:scroll;
@@ -49,7 +67,7 @@
             <div class="col-7 list-container p-0">
 				<div id='map'></div>
 				<div class="leaflet-top leaflet-right">
-					<a href="/tsumari-app/index.html" class="btn btn-primary">戻る</a>
+					<a href="/tsumari-app/index.html" role="button" class="btn btn-primary">戻る</a>
 				</div>
 			</div>
             <div class="col-5 tab-container p-0">
@@ -71,7 +89,7 @@
 
 		map.setView(e.latlng,14);
 		L.marker(e.latlng).addTo(map)
-			.bindPopup("You are within " + radius + " meters from this point").openPopup();
+			.bindPopup("いまここらへん").openPopup();
 		// L.circle(e.latlng, radius).addTo(map);
 	}
 
@@ -83,50 +101,6 @@
 	map.on('locationerror', onLocationError);
 
 	map.locate({setView: true, maxZoom: 16});
-
-//   var baseballIcon = L.icon({
-// 		iconUrl: 'baseball-marker.png',
-// 		iconSize: [32, 37],
-// 		iconAnchor: [16, 37],
-// 		popupAnchor: [0, -28]
-// 	});
-
-// 	function onEachFeature(feature, layer) {
-// 		var popupContent =
-//       `
-//       ${feature.properties["Column1.no"]}<br />
-//       ${feature.properties["Column1.title"]}<br />
-//       ${feature.properties["Column1.specs.制作年"]}<br />
-//       ${feature.properties["Column1.specs.エリア"]}<br />
-//       ${feature.properties["Column1.specs.集落"]}<br />
-//       ${feature.properties["Column1.specs.マップコード"]}<br />
-//       `;
-
-// 		if (feature.properties && feature.properties.popupContent) {
-// 			popupContent += feature.properties.popupContent;
-// 		}
-
-// 		layer.bindPopup(popupContent);
-// 	}
-//   var coorsLayer = L.geoJSON(coorsField , {
-
-// 		pointToLayer: function (feature, latlng) {
-//       var icon = L.divIcon({
-//           className: 'meshno',
-//           html: feature.properties["Column1.no"]
-//       });
-//       return L.marker(latlng,/*{icon:icon}*/)
-//       .bindTooltip(feature.properties["Column1.no"],
-//       {
-//         permanent: true,
-//         direction: "right",
-//         opacity: 0.7,
-//        // className: "my-labels"
-//       });
-// 		},
-
-// 		onEachFeature: onEachFeature
-// 	}).addTo(map);
 
 	markers = []
     works.forEach(function(work){
@@ -145,7 +119,7 @@
 							permanent: true,
 							direction: "right",
 							opacity: 0.7,
-						// className: "my-labels"
+							className: "my-labels-" + work.no.substr(0,1) 
 						}
 					)
 					.bindPopup(function(){
@@ -163,10 +137,6 @@
         </div>
     </div>
 					`)})
-						// ${work.no}&nbsp;${work.title}<br />
-						// ${work.artist}&nbsp;${work.specs["制作年"]}<br />
-						// ${work.specs["エリア"]}&nbsp;${work.specs["集落"]}<br />
-						// ${work.specs["マップコード"]}
 			);
 		}
 	});
