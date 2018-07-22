@@ -17,6 +17,7 @@
     <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="leaflet/leaflet-button-control.js"></script>
 
 
 	<style>
@@ -66,9 +67,9 @@
         <div class="row">
             <div class="col-7 list-container p-0">
 				<div id='map'></div>
-				<div class="leaflet-top leaflet-right">
-					<a href="/tsumari-app/index.html" role="button" class="btn btn-primary">戻る</a>
-				</div>
+				<!-- <div class="leaflet-top leaflet-right">
+					<button href="/tsumari-app/index.html" onclick="javascript:location.href='/tsumari-app/index.html'" role="button" class="btn btn-primary">戻る</button>
+				</div> -->
 			</div>
             <div class="col-5 tab-container p-0">
                 <div class="tab-content" id="nav-tabContent">
@@ -82,9 +83,23 @@
 <script>
 	var map = L.map('map').fitWorld();
 
-  L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
-    attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
-  }).addTo(map);
+	L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
+		attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
+	}).addTo(map);
+
+	var myButtonOptions = {
+		'text': '戻る',  // string
+		'iconUrl': 'images/favicon-32x32.png',  // string
+		'onClick': function(){location.href="/tsumari-app/index.html"},  // callback function
+		'hideText': true,  // bool
+		'maxWidth': 30,  // number
+		'doToggle': false,  // bool
+		'toggleStatus': false,  // bool
+		'position': 'topright'
+	}   
+
+	var myButton = new L.Control.Button(myButtonOptions).addTo(map);
+
 	function onLocationFound(e) {
 		var radius = e.accuracy / 2;
 
@@ -138,10 +153,10 @@
 		work.new = work.specs['制作年']=="2018"?'<span class="badge badge-primary">New</span>':"";
 		work.year = work.specs['制作年'];
 		if(work.specs['マップコード']){
-			work.specs['マップコード'].replace(/\B(?=(\d{3})+(?!\d))/g, '-')
+			work.mapcode = work.specs['マップコード'].replace(/\B(?=(\d{3})+(?!\d))/g, '-')
 		}else{
 			if(works_supplement[work_supplement_index].specs &&  works_supplement[work_supplement_index].specs["マップコード"]){
-				work.specs['マップコード'] = works_supplement[work_supplement_index].specs["マップコード"].replace(/\B(?=(\d{3})+(?!\d))/g, '-')
+				work.mapcode = work.specs['マップコード'] = works_supplement[work_supplement_index].specs["マップコード"].replace(/\B(?=(\d{3})+(?!\d))/g, '-')
 			}
 		}
 		if(work.gmaps && work.gmaps.latlng){
