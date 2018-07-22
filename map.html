@@ -17,8 +17,9 @@
     <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="leaflet/leaflet-button-control.js"></script>
-
+    <!-- <script src="leaflet/leaflet-button-control.js"></script> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+	<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
 
 	<style>
 		html, body {
@@ -31,34 +32,37 @@
 			height: 100%;
 		}
 		.leaflet-tooltip.my-labels {
-		background-color: transparent;
-		border: transparent;
-		box-shadow: none;
+			background-color: transparent;
+			border: transparent;
+			box-shadow: none;
 		}
 		.leaflet-tooltip.my-labels-T {
-		background-color: #F2D7CC;
+			background-color: #F2D7CC;
 		}
 		.leaflet-tooltip.my-labels-K {
-		background-color: #DAECF9;
+			background-color: #DAECF9;
 		}
 		.leaflet-tooltip.my-labels-D {
-		background-color: #D6F0D2;
+			background-color: #D6F0D2;
 		}
 		.leaflet-tooltip.my-labels-Y {
-		background-color: #E3DAEC;
+			background-color: #E3DAEC;
 		}
 		.leaflet-tooltip.my-labels-M {
-		background-color: #FCF5D9;
+			background-color: #FCF5D9;
 		}
 		.leaflet-tooltip.my-labels-N {
-		background-color: #FAE7D6;
+			background-color: #FAE7D6;
 		}
 	  .tab-container{
             /* margin-bottom: 10px; */
             overflow-y:scroll;
             -webkit-overflow-scrolling: touch;
         }
-  	</style>
+		.star{
+  			font-size: 1.5em;
+		}
+   	</style>
 
 	<!-- <style>body { padding: 0; margin: 0; } #map { height: 100%; width: 100vw; }</style> -->
 </head>
@@ -87,18 +91,25 @@
 		attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
 	}).addTo(map);
 
-	var myButtonOptions = {
-		'text': '戻る',  // string
-		'iconUrl': 'images/favicon-32x32.png',  // string
-		'onClick': function(){location.href="/tsumari-app/index.html"},  // callback function
-		'hideText': true,  // bool
-		'maxWidth': 30,  // number
-		'doToggle': false,  // bool
-		'toggleStatus': false,  // bool
-		'position': 'topright'
-	}   
+	// var myButtonOptions = {
+	// 	'text': '一覧',  // string
+	// 	'iconUrl': 'images/favicon-32x32.png',  // string
+	// 	'onClick': function(){location.href="/tsumari-app/index.html"},  // callback function
+	// 	'hideText': true,  // bool
+	// 	'maxWidth': 30,  // number
+	// 	'doToggle': false,  // bool
+	// 	'toggleStatus': false,  // bool
+	// 	'position': 'topright'
+	// }   
+	// var myButton = new L.Control.Button(myButtonOptions).addTo(map);
 
-	var myButton = new L.Control.Button(myButtonOptions).addTo(map);
+	L.easyButton( '<span class="star">&equiv;</span>', function(){
+		location.href="/tsumari-app/index.html";
+	}).addTo(map);
+	L.easyButton( '<span class="star">&sdotb;</span>', function(){
+		map.locate({setView: true, maxZoom: 16});
+	}).addTo(map);
+
 
 	function onLocationFound(e) {
 		var radius = e.accuracy / 2;
@@ -168,13 +179,19 @@
 		work.gmapurl_q = work.latlng?("https://www.google.com/maps/search/"+work.latlng[1]+","+work.latlng[2]):"";
 		if(work.gmaps && work.gmaps.latlng && work.gmaps.latlng[1] && work.gmaps.latlng[2]){
 			// console.log(`${work.no} ${work.gmaps.latlng[1]}, ${work.gmaps.latlng[2]}`)
+			tooltipWorkNo = ""
+			if(work.new){
+				tooltipWorkNo = "<b>" + work.no + "</b>"
+			}else{
+				tooltipWorkNo = work.no
+			}
 			markers.push(
 				L.marker([work.gmaps.latlng[1], work.gmaps.latlng[2]])
-		      		.bindTooltip(work.no,
+		      		.bindTooltip(tooltipWorkNo,
 						{
 							permanent: true,
 							direction: "right",
-							opacity: 0.8,
+							opacity: work.new?1.0:0.8,
 							className: "my-labels-" + work.no.substr(0,1) 
 						}
 					)
