@@ -144,14 +144,9 @@
 				work.specs['マップコード'] = works_supplement[work_supplement_index].specs["マップコード"].replace(/\B(?=(\d{3})+(?!\d))/g, '-')
 			}
 		}
-		// console.log(`gmap   ${JSON.stringify(work.gmaps)}`)
-		// console.log(`gmap_s ${JSON.stringify(works_supplement[work_supplement_index].gmaps)}`)
 		if(work.gmaps && work.gmaps.latlng){
 		}else{
 			work.gmaps = works_supplement[work_supplement_index].gmaps
-			// if(work.gmaps && work.gmaps.latlng){
-			// 	// console.log(`${work.no} ${work.gmaps.latlng[1]}, ${work.gmaps.latlng[2]}`)
-			// }
 		}
 		work.latlng = work.gmaps?(work.gmaps.latlng):"";
 		work.gmapurl = work.gmaps?work.gmaps.href:"";
