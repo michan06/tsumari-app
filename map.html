@@ -78,6 +78,7 @@
 
 	</div>
 <script src="/tsumari-app/csv/tsumari_artworks.json"></script>
+<script src="/tsumari-app/csv/supplement.json"></script>
 <script>
 	var map = L.map('map').fitWorld();
 
@@ -101,24 +102,69 @@
 	map.on('locationerror', onLocationError);
 
 	map.locate({setView: true, maxZoom: 16});
+	works_supplement.unshift({
+			"no" : "",
+			"title" : "",
+			"url" : "",
+			"thumbs_url" : "",
+			"artist" : "",
+			"specs" : {
+				"作品番号" : "",
+				"制作年" : "",
+				"エリア" : "",
+				"集落" : "",
+				"マップコード" : ""
+			},
+			"text" : ""
+		});
+
+	function getSupplement(workNo) {
+		let return_index = 0;
+		works_supplement.forEach(function(work_supplement,work_supplement_index){
+			if(work_supplement.no == workNo){
+				// console.log(`${JSON.stringify(work_supplement)}`)
+				return_index = work_supplement_index;
+			}
+		});
+		return return_index;
+	}
+
 
 	markers = []
     works.forEach(function(work){
+		let work_supplement_index = getSupplement(work.no)
+		console.log(`${work_supplement_index}`)
 		work.image_url = work.thumbs_url.replace(/_list_thumb\//,'');
 		work.new = work.specs['制作年']=="2018"?'<span class="badge badge-primary">New</span>':"";
 		work.year = work.specs['制作年'];
-		work.mapcode = work.specs['マップコード']?(work.specs['マップコード'].replace(/\B(?=(\d{3})+(?!\d))/g, '-')):"";
+		if(work.specs['マップコード']){
+			work.specs['マップコード'].replace(/\B(?=(\d{3})+(?!\d))/g, '-')
+		}else{
+			if(works_supplement[work_supplement_index].specs &&  works_supplement[work_supplement_index].specs["マップコード"]){
+				work.specs['マップコード'] = works_supplement[work_supplement_index].specs["マップコード"].replace(/\B(?=(\d{3})+(?!\d))/g, '-')
+			}
+		}
+		// console.log(`gmap   ${JSON.stringify(work.gmaps)}`)
+		// console.log(`gmap_s ${JSON.stringify(works_supplement[work_supplement_index].gmaps)}`)
+		if(work.gmaps && work.gmaps.latlng){
+		}else{
+			work.gmaps = works_supplement[work_supplement_index].gmaps
+			// if(work.gmaps && work.gmaps.latlng){
+			// 	// console.log(`${work.no} ${work.gmaps.latlng[1]}, ${work.gmaps.latlng[2]}`)
+			// }
+		}
 		work.latlng = work.gmaps?(work.gmaps.latlng):"";
 		work.gmapurl = work.gmaps?work.gmaps.href:"";
 		work.gmapurl_q = work.latlng?("https://www.google.com/maps/search/"+work.latlng[1]+","+work.latlng[2]):"";
-		if(work.gmaps && work.gmaps.latlng){
+		if(work.gmaps && work.gmaps.latlng && work.gmaps.latlng[1] && work.gmaps.latlng[2]){
+			// console.log(`${work.no} ${work.gmaps.latlng[1]}, ${work.gmaps.latlng[2]}`)
 			markers.push(
 				L.marker([work.gmaps.latlng[1], work.gmaps.latlng[2]])
 		      		.bindTooltip(work.no,
 						{
 							permanent: true,
 							direction: "right",
-							opacity: 0.7,
+							opacity: 0.8,
 							className: "my-labels-" + work.no.substr(0,1) 
 						}
 					)
