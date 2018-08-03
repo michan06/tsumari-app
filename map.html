@@ -87,9 +87,11 @@
 <script>
 	var map = L.map('map').fitWorld();
 
-	L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
+	let chiriin = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
 		attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
 	}).addTo(map);
+	let layerControl = L.control.layers().addTo(map);
+	layerControl.addBaseLayer(chiriin,'地理院地図');
 
 	// var myButtonOptions = {
 	// 	'text': '一覧',  // string
@@ -157,6 +159,7 @@
 
 
 	markers = []
+	markersNew = []
     works.forEach(function(work){
 		let work_supplement_index = getSupplement(work.no)
 		console.log(`${work_supplement_index}`)
@@ -185,8 +188,7 @@
 			}else{
 				tooltipWorkNo = work.no
 			}
-			markers.push(
-				L.marker([work.gmaps.latlng[1], work.gmaps.latlng[2]])
+			let marker = L.marker([work.gmaps.latlng[1], work.gmaps.latlng[2]])
 		      		.bindTooltip(tooltipWorkNo,
 						{
 							permanent: true,
@@ -210,12 +212,19 @@
         </div>
     </div>
 					`)})
-			);
+			if(work.new){
+				markersNew.push(marker);
+			}else{
+				markers.push(marker);
+			}
 		}
 	});
 	// alert(markers.length);
-	L.layerGroup(markers).addTo(map);
+	layerOld = L.layerGroup(markers).addTo(map);
+	layerNew = L.layerGroup(markersNew).addTo(map);
 	// lazyload();
+	layerControl.addOverlay(layerNew,'新作');
+	layerControl.addOverlay(layerOld,'旧作');
 
 	h = $(window).height() - 10;
 	$(".list-container").css('max-height', h +'px');
