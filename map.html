@@ -90,7 +90,7 @@
 	let chiriin = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
 		attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
 	}).addTo(map);
-	let layerControl = L.control.layers().addTo(map);
+	let layerControl = L.control.layers(null,null,{hideSingleBase:true}).addTo(map);
 	layerControl.addBaseLayer(chiriin,'地理院地図');
 
 	// var myButtonOptions = {
