@@ -188,34 +188,36 @@
 			}else{
 				tooltipWorkNo = work.no
 			}
-			let marker = L.marker([work.gmaps.latlng[1], work.gmaps.latlng[2]])
-		      		.bindTooltip(tooltipWorkNo,
-						{
-							permanent: true,
-							direction: "right",
-							opacity: work.new?1.0:0.8,
-							className: "my-labels-" + work.no.substr(0,1) 
-						}
-					)
-					.bindPopup(function(){
-						$('#nav-tabContent').html(`
-					<div class="card">
-        <h5 class="card-title">${work.no} 「${work.title}」</h5>
-        <h6 class="card-subtitle mb-2">${work.specs['エリア']} ${work.specs['集落']?work.specs['集落']:""} ${work.mapcode}</h6>
-        <h6 class="card-subtitle mb-2 text-muted">${work.artist} ${work.specs['制作年']}</h6>
-        <a href="${work.url}">
-            <img class="card-img-top lazyload" src="${work.image_url}" alt="${work.no} ${work.title}">
-        </a>
-        <div class="card-body">
-            <p class="card-text">${work.text}</p>
-            <p class="card-text">GPS:<a href="${work.gmapurl_q}">${work.latlng?work.latlng[1]:""}${work.latlng?(","+work.latlng[2]):""}</a></p>
-        </div>
-    </div>
-					`)})
-			if(work.new){
-				markersNew.push(marker);
-			}else{
-				markers.push(marker);
+			if(!work.disabled){
+				let marker = L.marker([work.gmaps.latlng[1], work.gmaps.latlng[2]])
+						.bindTooltip(tooltipWorkNo,
+							{
+								permanent: true,
+								direction: "right",
+								opacity: work.new?1.0:0.8,
+								className: "my-labels-" + work.no.substr(0,1) 
+							}
+						)
+						.bindPopup(function(){
+							$('#nav-tabContent').html(`
+						<div class="card">
+			<h5 class="card-title">${work.no} 「${work.title}」</h5>
+			<h6 class="card-subtitle mb-2">${work.specs['エリア']} ${work.specs['集落']?work.specs['集落']:""} ${work.mapcode}</h6>
+			<h6 class="card-subtitle mb-2 text-muted">${work.artist} ${work.specs['制作年']}</h6>
+			<a href="${work.url}">
+				<img class="card-img-top lazyload" src="${work.image_url}" alt="${work.no} ${work.title}">
+			</a>
+			<div class="card-body">
+				<p class="card-text">${work.text}</p>
+				<p class="card-text">GPS:<a href="${work.gmapurl_q}">${work.latlng?work.latlng[1]:""}${work.latlng?(","+work.latlng[2]):""}</a></p>
+			</div>
+		</div>
+						`)})
+				if(work.new){
+					markersNew.push(marker);
+				}else{
+					markers.push(marker);
+				}
 			}
 		}
 	});
