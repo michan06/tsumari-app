@@ -153,7 +153,7 @@
             work.latlng = work.gmaps?(work.gmaps.latlng):"";
             work.gmapurl = work.gmaps?work.gmaps.href:"";
             work.gmapurl_q = work.latlng?("https://www.google.com/maps/search/"+work.latlng[1]+","+work.latlng[2]):"";
-            if(!works.disabled){
+            if(!work.disabled){
                 $('#list-tab').append(
 `<a class="list-group-item list-group-item-action" id="list-${work.no}-list" data-toggle="list" href="#list-${work.no}" role="tab" aria-controls="${work.no}" data-year="${work.year}">${work.no} 「${work.title}」${work.year}${work.new}</a>`)
                 $('.tab-content').append(
