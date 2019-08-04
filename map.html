@@ -161,34 +161,34 @@
 	markers = []
 	markersNew = []
     works.forEach(function(work){
-		let work_supplement_index = getSupplement(work.no)
-		console.log(`${work_supplement_index}`)
-		work.image_url = work.thumbs_url.replace(/_list_thumb\//,'');
-		work.new = work.specs['制作年']=="2018"?'<span class="badge badge-primary">New</span>':"";
-		work.year = work.specs['制作年'];
-		if(work.specs['マップコード']){
-			work.mapcode = work.specs['マップコード'].replace(/\B(?=(\d{3})+(?!\d))/g, '-')
-		}else{
-			if(works_supplement[work_supplement_index].specs &&  works_supplement[work_supplement_index].specs["マップコード"]){
-				work.mapcode = work.specs['マップコード'] = works_supplement[work_supplement_index].specs["マップコード"].replace(/\B(?=(\d{3})+(?!\d))/g, '-')
-			}
-		}
-		if(work.gmaps && work.gmaps.latlng){
-		}else{
-			work.gmaps = works_supplement[work_supplement_index].gmaps
-		}
-		work.latlng = work.gmaps?(work.gmaps.latlng):"";
-		work.gmapurl = work.gmaps?work.gmaps.href:"";
-		work.gmapurl_q = work.latlng?("https://www.google.com/maps/search/"+work.latlng[1]+","+work.latlng[2]):"";
-		if(work.gmaps && work.gmaps.latlng && work.gmaps.latlng[1] && work.gmaps.latlng[2]){
-			// console.log(`${work.no} ${work.gmaps.latlng[1]}, ${work.gmaps.latlng[2]}`)
-			tooltipWorkNo = ""
-			if(work.new){
-				tooltipWorkNo = "<b>" + work.no + "</b>"
+		if(!work.disabled){
+			let work_supplement_index = getSupplement(work.no)
+			console.log(`${work_supplement_index}`)
+			work.image_url = work.thumbs_url.replace(/_list_thumb\//,'');
+			work.new = work.specs['制作年']=="2018"?'<span class="badge badge-primary">New</span>':"";
+			work.year = work.specs['制作年'];
+			if(work.specs['マップコード']){
+				work.mapcode = work.specs['マップコード'].replace(/\B(?=(\d{3})+(?!\d))/g, '-')
 			}else{
-				tooltipWorkNo = work.no
+				if(works_supplement[work_supplement_index].specs &&  works_supplement[work_supplement_index].specs["マップコード"]){
+					work.mapcode = work.specs['マップコード'] = works_supplement[work_supplement_index].specs["マップコード"].replace(/\B(?=(\d{3})+(?!\d))/g, '-')
+				}
 			}
-			if(!work.disabled){
+			if(work.gmaps && work.gmaps.latlng){
+			}else{
+				work.gmaps = works_supplement[work_supplement_index].gmaps
+			}
+			work.latlng = work.gmaps?(work.gmaps.latlng):"";
+			work.gmapurl = work.gmaps?work.gmaps.href:"";
+			work.gmapurl_q = work.latlng?("https://www.google.com/maps/search/"+work.latlng[1]+","+work.latlng[2]):"";
+			if(work.gmaps && work.gmaps.latlng && work.gmaps.latlng[1] && work.gmaps.latlng[2]){
+				// console.log(`${work.no} ${work.gmaps.latlng[1]}, ${work.gmaps.latlng[2]}`)
+				tooltipWorkNo = ""
+				if(work.new){
+					tooltipWorkNo = "<b>" + work.no + "</b>"
+				}else{
+					tooltipWorkNo = work.no
+				}
 				let marker = L.marker([work.gmaps.latlng[1], work.gmaps.latlng[2]])
 						.bindTooltip(tooltipWorkNo,
 							{
