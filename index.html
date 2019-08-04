@@ -153,9 +153,10 @@
             work.latlng = work.gmaps?(work.gmaps.latlng):"";
             work.gmapurl = work.gmaps?work.gmaps.href:"";
             work.gmapurl_q = work.latlng?("https://www.google.com/maps/search/"+work.latlng[1]+","+work.latlng[2]):"";
-            $('#list-tab').append(
+            if(!works.disabled){
+                $('#list-tab').append(
 `<a class="list-group-item list-group-item-action" id="list-${work.no}-list" data-toggle="list" href="#list-${work.no}" role="tab" aria-controls="${work.no}" data-year="${work.year}">${work.no} 「${work.title}」${work.year}${work.new}</a>`)
-            $('.tab-content').append(
+                $('.tab-content').append(
 `<div class="tab-pane fade show" id="list-${work.no}" role="tabpanel" aria-labelledby="list-${work.no}-list">
     <div class="card">
         <h5 class="card-title">${work.no} 「${work.title}」</h5>
@@ -170,6 +171,7 @@
         </div>
     </div>
 </div>`);
+            }
         });
 
 //         $('.tab-content').append(
